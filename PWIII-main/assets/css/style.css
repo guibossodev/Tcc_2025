@@ -1,0 +1,24 @@
+:root {
+    --primary: #BF0FA2;
+    --secondary: #7135F2;
+    --tertiary: #090126;
+    --quaternary: #391BA6;
+    --quinary: #0A0140;
+}
+
+.bg-custom {
+    background: var(--primary);
+    background: linear-gradient(90deg, var(--quaternary) 0%, var(--primary) 71%);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+    transition: all 0.5;
+}
+
+.nav-brand:hover,
+.nav-link:hover {
+    color: red;
+    transition: all 0.5;
+}
