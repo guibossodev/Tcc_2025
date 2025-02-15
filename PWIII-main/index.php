@@ -35,20 +35,21 @@
     $dentistas = [
       $dentista1,
       $dentista2,
-
+      $dentista3,
+      $dentista4,
     ];
   ?>
 
     <div class="container">
       <div class="row">
         <?php
-        foreach ($pokemons as $key => $pokemon) {?>
+        foreach ($dentistas as $key => $dentista) {?>
       <div class="col-12 col-lg-3 p-3">
           <div class="card" style="width: 18rem;">
-            <img src="<?php echo $pokemon->foto;?>" class="card-img-top" alt="...">
+            <img src="<?php echo $dentista->foto;?>" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title"><?php echo $pokemon->nome;?></h5>
-              <p class="card-text"><?php echo $pokemon->poder;?></p>
+              <h5 class="card-title"><?php echo $dentista->nome;?></h5>
+              <p class="card-text"><?php echo $dentista->poder;?></p>
               <a href="#" class="btn btn-primary">Ver mais</a>
             </div>
           </div>
