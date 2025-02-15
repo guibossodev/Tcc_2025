@@ -20,9 +20,22 @@
   $dentista2->poder = "Poder de fogo ardente";
   $dentista2->foto = "";
 
+  $dentista3 = new dentista();
+  $dentista3->nome = "Charizard";
+  $dentista3->nome = "Charizard";
+  $dentista3->poder = "Poder de fogo ardente";
+  $dentista3->foto = "";
+
+  $dentista4 = new dentista();
+  $dentista4->nome = "Charizard";
+  $dentista4->nome = "Charizard";
+  $dentista4->poder = "Poder de fogo ardente";
+  $dentista4->foto = "";
+
     $dentistas = [
       $dentista1,
       $dentista2,
+
     ];
   ?>
 
