@@ -3,25 +3,26 @@
 
 
   <?php
-  class pokemon {
+  class dentista {
     public $nome;
     public $poder;
     public $foto;
 
   }
-  $pokemon1 = new pokemon();
-  $pokemon1->nome = "pikachu";
-  $pokemon1->poder = "poder eletrizante";
-  $pokemon1->foto = "https://img.pokemondb.net/artwork/large/pikachu.jpg";
+  $dentista1 = new dentista();
+  $dentista1->nome = "pikachu";
+  $dentista1->poder = "poder eletrizante";
+  $dentista1->foto = "https://img.pokemondb.net/artwork/large/pikachu.jpg";
 
-  $pokemon2 = new pokemon();
-  $pokemon2->nome = "Charizard";
-  $pokemon2->poder = "Poder de fogo ardente";
-  $pokemon2->foto = "";
+  $dentista2 = new dentista();
+  $dentista2->nome = "Charizard";
+  $dentista2->nome = "Charizard";
+  $dentista2->poder = "Poder de fogo ardente";
+  $dentista2->foto = "";
 
-    $pokemons = [
-      $pokemon1,
-      $pokemon2,
+    $dentistas = [
+      $dentista1,
+      $dentista2,
     ];
   ?>
 
