@@ -1,6 +1,7 @@
 
 <?php include './header.php'; ?>
 
+
    
   <?php
   class dentista {
@@ -11,30 +12,36 @@
   }
 
   $dentista1 = new dentista();
-  $dentista1->nome = "Pamela";
-  // $dentista1->$Especialidade = "";
-  $dentista1->foto = "fotos/dra_pamela.png"; 
+  $dentista1->nome = "Ana carla";
+  $dentista1->Especialidade = "Doutora";
+  $dentista1->foto = "fotos/dr_ana_carla.png"; 
   
   $dentista2 = new dentista();
-  $dentista2->nome = "Charizard";
-  $dentista2->Especialidade = "Poder de fogo ardente";
-  $dentista2->foto = "";
+  $dentista2->nome = "Ana paula";
+  $dentista2->Especialidade = "Doutora";
+  $dentista2->foto = "fotos/dra_ana_paula.png";
 
   $dentista3 = new dentista();
-  $dentista3->nome = "Charizard";
-  $dentista3->Especialidade = "Poder de fogo ardente";
-  $dentista3->foto = "";
+  $dentista3->nome = "Marilia";
+  $dentista3->Especialidade = "Doutora";
+  $dentista3->foto = "fotos/dra_marilia.png";
 
   $dentista4 = new dentista();
-  $dentista4->nome = "Charizard";
-  $dentista4->Especialidade = "Poder de fogo ardente";
-  $dentista4->foto = "";
+  $dentista4->nome = "Pamela";
+  $dentista4->Especialidade = "Doutora";
+  $dentista4->foto = "fotos/dra_pamela.png";
+
+  $dentista5 = new dentista();
+  $dentista5->nome = "Ricardo";
+  $dentista5->Especialidade = "Doutor";
+  $dentista5->foto = "fotos/ricardo_dr.png";
 
     $dentistas = [
       $dentista1,
       $dentista2,
       $dentista3,
       $dentista4,
+      $dentista5,
     ];
   ?>  
 
@@ -74,7 +81,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  BOA NOITE 
+  
 </button>
 
 
@@ -82,7 +89,7 @@
           </div>
         </div>
         <?php }?>
-        <!-- pikachu -->
+      
        
         </div>
     </div>

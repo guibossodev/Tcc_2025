@@ -12,8 +12,8 @@
     <nav class="navbar navbar-expand-lg bg-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_Pokeball-512.png" width="30">
-            Pokemon
+            <img src="logo/Vitalitá-logotipo2.png"width="30" >
+            Vitalitá
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,30 +25,19 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pokemon
+                  Contatos
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
-                        <img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_pikachu-512.png" width="25px">Pikachu
-                    </a></li>
-                  <li><a class="dropdown-item" href="#">
-                    <img src="https://cdn1.iconfinder.com/data/icons/pokemon-set/24/Charizard-512.png" width="25px">Charizard</a></li>
-                  <li><a class="dropdown-item" href="#">
-                    <img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-1/135/_bulbasaur-512.png" width="25px">Bulbasaur</a></li>
-                  <li><a class="dropdown-item" href="#">
-                    <img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-1/135/_charmander-512.png" width="25px">Charmander</a></li>
-                  <li><a class="dropdown-item" href="#">
-                    <img src="https://cdn0.iconfinder.com/data/icons/pokemon-go-vol-2/135/_squirtle-512.png" width="25px">Squirtle</a></li>
-                  <li><a class="dropdown-item" href="#">
-                    <img src="https://cdn1.iconfinder.com/data/icons/pokemon-set/24/Clefairy-512.png" width="25px">Clefairy</a></li>
+                    <a class="dropdown-item" href="https://www.instagram.com/vitalitaodonto?igsh=MXR3NnFranc2OXA5cw==">
+                        <img src="https://img.cdndsgni.com/preview/10000152.jpg" width="25px">Instagram</a></li>
+                  <li><a class="dropdown-item" href="http://wa.me/551532596390">
+                    <img src="https://img.cdndsgni.com/preview/10000484.jpg" width="25px">WhatsApp</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/share/15poFCSyDb/">
+                    <img src="https://logopng.com.br/logos/facebook-13.png" width="25px">Facebook</a></li>
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
     </nav>
