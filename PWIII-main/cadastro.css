@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    /* Remove o scroll horizontal */
+    max-width: 100vw;
+    /* Impede que o corpo ultrapasse a largura da viewport */
+    margin: 0;
+    /* Remove margens externas */
+}
+
+#section-cadastro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 20%;
+    background-image: url(../../img/login.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 90vh;
+    background-color: transparent;
+    border: 2px solid rgba(229, 217, 217, 0.5);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    /* Largura em pixels */
+    border-bottom: 2px solid white;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.inputbox input:focus~label,
+.inputbox input:not(:placeholder-shown)~label,
+.inputbox input:valid~label {
+    top: -5px;
+    /* Move o label para cima */
+    font-size: 0.8rem;
+    /* Ajusta o tamanho do texto */
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.erros {
+    color: white;
+    display: none;
+}
+
+
+@media (max-width: 920px) {
+    body {
+        overflow-x: hidden;
+        overflow-x: hidden !important;
+        /* Evita o scroll horizontal */
+        overflow-y: auto !important;
+        /* Permite o scroll vertical */
+        margin: 0;
+        /* Remove margens externas */
+        max-width: 100vw;
+        /* Garante que o corpo não ultrapasse a largura */
+    }
+
+    #section-Cadastro {
+        display: flex;
+        gap: 20%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../../img/login2.jpg);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+    }
+
+
+    .img img {
+        width: 190px;
+        /* Reduz a largura da imagem */
+        max-width: 250px;
+        /* Define um limite máximo */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin: 0 auto;
+        /* Centraliza a imagem */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .form-box {
+        height: 900%;
+        /* Ajusta a altura do campo de entrada */
+        width: 300px;
+        /* Largura do formulário */
+        padding: 10px;
+        /* Espaço interno do formulário */
+        margin: 0 auto;
+        /* Centraliza o formulário na tela */
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #email {
+        display: flex;
+    }
+
+    .inputbox {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .h2-login {
+        color: black;
+
+    }
+
+    .h2-cadastro {
+        color: black;
+    }
+
+    .inputbox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* Garante que os inputs se ajustem ao contêiner */
+        margin-bottom: 15px;
+    }
+
+    .h2-login,
+    .h2-cadastro {
+        color: black;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        border-radius: 40px;
+        background: white;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: 600;
+    }
+
+    .register {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .register a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+
+    .register a:hover {
+        text-decoration: underline;
+    }
+}

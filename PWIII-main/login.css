@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: blanchedalmond;
+}
+
+body {
+    overflow: hidden;
+}
+ img {
+   width: 20%; 
+   margin-right: 35rem;
+
+ }
+#section-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    gap: 20%;
+    background-image: url(../../img/login.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 300rem;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    /* Adicionei 'px' para a largura */
+    border-bottom: 2px solid rgb(31, 30, 30);
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: rgb(26, 25, 25);
+    font-size: 1rem;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputbox input:focus~label,
+.inputbox input:not(:placeholder-shown)~label,
+.inputbox input:valid~label {
+    top: -5px;
+    /* Move o label para cima */
+    font-size: 0.8rem;
+    /* Ajusta o tamanho do texto, se necessário */
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: rgb(39, 37, 37); 
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: center;
+}
+
+.login-butto {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgba(20, 20, 20, 0.171);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.recuperar-senha {
+    background: none;
+    /* Remove o fundo */
+    border: none;
+    /* Remove a borda, se necessário */
+    color: #252121;
+    /* Altera a cor do texto */
+    cursor: pointer;
+    /* Muda o cursor para indicar que é clicável */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+}
+
+.recuperar {
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    font-size: .9em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.erros {
+    color: rgb(49, 47, 47);
+    display: none;
+}
+
+@media (max-width: 920px) {
+    #section-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.904);
+        background-image: url(../../img/login2.jpg);
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+    }
+
+    .img img {
+        width: 193px;
+        /* Reduz a largura da imagem */
+        max-width: 260px;
+        /* Define um limite máximo */
+        height: auto;
+        /* Mantém a proporção da imagem */
+        margin: 0 auto;
+        /* Centraliza a imagem */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .form-box {
+        display: flex;
+        width: 80%;
+        /* Faz o formulário ocupar 90% da largura da tela */
+        max-width: 400px;
+        /* Define um limite máximo */
+        padding: 20px;
+        /* Adiciona espaçamento interno */
+        justify-content: center;
+        align-items: center;
+    }
+
+    #email {
+        display: flex;
+    }
+
+    .inputbox {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .h2-login {
+        color: rgb(0, 0, 0);
+
+    }
+
+}
