@@ -59,6 +59,28 @@
        
         </div>
     </div>
+    function toggleText() {
+            var info = document.getElementById("info-oculta");
+            var botao = document.getElementById("botao-toggle");
+            
+            if (info.style.display === "none") {
+                info.style.display = "block";
+                botao.innerText = "Ver menos"; // Altera o texto do botão
+            } else {
+                info.style.display = "none";
+                botao.innerText = "Ver mais";
+            }
+        }
+    </script>
+</head>
+<body class="p-4">
+
+    <a href="#" id="botao-toggle" class="btn btn-primary" onclick="toggleText()">Ver mais</a>
+
+    <div id="info-oculta" style="display: none; margin-top: 15px;">
+        <p>Esta é a informação oculta que será mostrada quando o botão for clicado.</p>
+    </div>
+
 
 <?php include './footer.php'; ?>
   
